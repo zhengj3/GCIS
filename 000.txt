@@ -1,0 +1,6 @@
+http://oaei.ontologymatching.org/2012/IIMBDATA/en/territory_of_new_guinea http://oaei.ontologymatching.org/2012/IIMBDATA/en/territory_of_new_guinea
+http://oaei.ontologymatching.org/2012/IIMBTBOX/featured_by http://oaei.ontologymatching.org/2012/IIMBTBOX/featured_by
+http://oaei.ontologymatching.org/2012/IIMBDATA/en/gaborone http://oaei.ontologymatching.org/2012/IIMBDATA/en/gaborone
+http://oaei.ontologymatching.org/2012/IIMBTBOX/filmed_in http://oaei.ontologymatching.org/2012/IIMBTBOX/filmed_in
+http://oaei.ontologymatching.org/2012/IIMBDATA/m/0bvgm5z http://oaei.ontologymatching.org/2012/IIMBDATA/m/0bvgm5z
+http://oaei.ontologymatching.org/2012/IIMBTBOX/Capital http://oaei.ontologymatching.org/2012/IIMBTBOX/Capital

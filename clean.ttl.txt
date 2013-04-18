@@ -1,0 +1,677 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix clean: <http://cleanet.org/> .
+
+clean:global_energy_balance a skos:Concept;
+    rdfs:label "Global energy balance";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Global energy balance" .
+
+clean:orbital_cycles a skos:Concept;
+    rdfs:label "Orbital cycles";
+	rdfs:comment "such as Milankovitch Cycles";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:long_term_cycles,
+        clean:seasons;
+    skos:prefLabel "Orbital cycles" .
+
+clean:long_term_cycles a skos:Concept;
+    rdfs:label "Long term cycles";
+    skos:broader clean:orbital_cycles;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Long term cycles" .
+
+clean:seasons a skos:Concept;
+    rdfs:label "Seasons";
+	rdfs:comment "Seasonal cycles and seasonal effects";
+    skos:broader clean:orbital_cycles;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Seasons" .
+	
+clean:solar_radiation a skos:Concept;
+    rdfs:label "Solar radiation";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Solar radiation" .
+	
+clean:atmospheric_composition a skos:Concept;
+    rdfs:label "Atmospheric composition";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:aerosols,
+        clean:evolution_of_atmosphere,
+        clean:greenhouse_gases;
+    skos:prefLabel "Atmospheric composition" .
+
+clean:greenhouse_gases a skos:Concept;
+    rdfs:label "Greenhouse gases";
+    skos:broader clean:atmospheric_composition;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Greenhouse gases" .
+
+clean:aerosols a skos:Concept;
+    rdfs:label "Aerosols";
+    skos:broader clean:atmospheric_composition;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Aerosols" .
+
+clean:evolution_of_atmosphere a skos:Concept;
+    rdfs:label "Evolution of atmosphere";
+    skos:broader clean:atmospheric_composition;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Evolution of atmosphere" .
+	
+clean:greenhouse_effect a skos:Concept;
+    rdfs:label "Greenhouse effect";
+	rdfs:comment "natural greenhouse effect";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Greenhouse effect" .
+	
+clean:atmospheric_circulation a skos:Concept;
+    rdfs:label "Atmospheric circulation";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:coreolis_effect,
+        clean:hadley_cells;
+    skos:prefLabel "Atmospheric circulation" .
+	
+clean:hadley_cells a skos:Concept;
+    rdfs:label "Hadley cells";
+    skos:broader clean:atmospheric_circulation;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Hadley cells" .
+	
+clean:coreolis_effect a skos:Concept;
+    rdfs:label "Coreolis effect";
+    skos:broader clean:atmospheric_circulation;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Coreolis effect" .
+	
+clean:ocean_and_climate a skos:Concept;
+    rdfs:label "Ocean and climate";
+	rdfs:comment "The ocean's role in the climate system; interactions between ocean and climate";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:heat_capacity_of_water,
+        clean:thermal_expansion,
+        clean:thermohaline_circulation;
+    skos:prefLabel "Ocean and climate" .
+	
+clean:heat_capacity_of_water a skos:Concept;
+    rdfs:label "Heat capacity of water";
+    skos:broader clean:ocean_and_climate;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Heat capacity of water" .
+	
+clean:thermohaline_circulation a skos:Concept;
+    rdfs:label "Thermohaline circulation";
+    skos:broader clean:ocean_and_climate;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Thermohaline circulation" .
+	
+clean:thermal_expansion a skos:Concept;
+    rdfs:label "Thermal expansion";
+    skos:broader clean:ocean_and_climate;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Thermal expansion" .
+
+clean:climate_feedbacks a skos:Concept;
+    rdfs:label "Climate feedbacks";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:albedo,
+        clean:deforestation;
+    skos:prefLabel "Climate feedbacks" .
+
+clean:albedo a skos:Concept;
+    rdfs:label "Albedo";
+    skos:broader clean:climate_feedbacks;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Albedo" .
+	
+clean:deforestation a skos:Concept;
+    rdfs:label "Deforestation";
+    skos:broader clean:climate_feedbacks;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Deforestation" .
+	
+clean:water_cycle a skos:Concept;
+    rdfs:label "Water cycle";
+	rdfs:comment "Evaporation, precipitation, sublimation, evapotranspiration, water vapor";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Water cycle" .
+	
+clean:carbon_cycle a skos:Concept;
+    rdfs:label "Carbon cycle";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:biogeochemical_processes,
+        clean:sources_and_sinks;
+    skos:prefLabel "Carbon cycle" .
+	
+clean:biogeochemical_processes a skos:Concept;
+    rdfs:label "Biogeochemical processes";
+    skos:broader clean:carbon_cycle;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Biogeochemical processes" .
+	
+clean:sources_and_sinks a skos:Concept;
+    rdfs:label "Sources and sinks";
+	rdfs:comment "Including land use, ocean absorption, carbonate rocks";
+    skos:broader clean:carbon_cycle;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Sources and sinks" .
+	
+clean:regional_climates a skos:Concept;
+    rdfs:label "Regional climates";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Regional climates" .
+	
+clean:climate_compared_to_weather a skos:Concept;
+    rdfs:label "Climate compared to weather";
+    skos:broader clean:climate_system;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Climate compared to weather" .	
+
+clean:cyclical_and_natural_changes a skos:Concept;
+    rdfs:label "Cyclical and natural changes";
+    skos:broader clean:causes_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:el_nino_la_nina_e_n_s_o,
+        clean:long-term_variability,
+        clean:other_oscillations,
+        clean:seasonal_variability,
+        clean:solar_output_variability,
+        clean:volcanic_eruptions;
+    skos:prefLabel "Cyclical and natural changes" .
+	
+clean:el_nino_la_nina_e_n_s_o a skos:Concept;
+    rdfs:label "El Nino, La Nina, ENSO";
+    skos:broader clean:cyclical_and_natural_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "El Nino, La Nina, ENSO" .
+	
+clean:other_oscillations a skos:Concept;
+    rdfs:label "Other oscillations";
+	rdfs:comment "Includes North Atlantic Oscillation, Arctic Oscillation, Pacific-North American Pattern, Madden-Julian Oscillation, etc.";
+    skos:broader clean:cyclical_and_natural_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Other oscillations" .
+	
+clean:volcanic_eruptions a skos:Concept;
+    rdfs:label "Volcanic eruptions";
+    skos:broader clean:cyclical_and_natural_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Volcanic eruptions" .
+	
+clean:solar_output_variability a skos:Concept;
+    rdfs:label "Solar output variability";
+    skos:broader clean:cyclical_and_natural_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Solar output variability" .
+	
+clean:seasonal_variability a skos:Concept;
+    rdfs:label "Seasonal variability";
+    skos:broader clean:cyclical_and_natural_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Seasonal variability" .
+	
+clean:long-term_variability a skos:Concept;
+    rdfs:label "Long-term variability";
+	rdfs:comment "Such as Milankovitch Cycles, Snowball Earth";
+    skos:broader clean:cyclical_and_natural_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Long-term variability" .
+	
+clean:anthropogenic_changes a skos:Concept;
+    rdfs:label "Anthropogenic changes";
+	rdfs:comment "enhanced greenhouse effect, emissions, land use changes";
+    skos:broader clean:causes_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:greenhouse_gas_emissions,
+        clean:land_use_changes;
+    skos:prefLabel "Anthropogenic changes" .
+	
+clean:greenhouse_gas_emissions a skos:Concept;
+    rdfs:label "Greenhouse gas emissions";
+	rdfs:comment "Changes to the climate due to greenhouse gas emissions";
+    skos:broader clean:anthropogenic_changes;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Greenhouse gas emissions" .	
+
+clean:land_use_changes a skos:Concept;
+    rdfs:label "Land use changes";
+	rdfs:comment "Changes in climate due to changes in land use, such as clearing of forests";
+    skos:broader clean:anthropogenic_changes,
+        clean:mitigation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Land use changes" .
+
+clean:climate_data a skos:Concept;
+    rdfs:label "Climate data";
+	rdfs:comment "Instrumental measurements, proxy data, climate model projections";
+    skos:broader clean:measuring_and_modeling_climate;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:measurements_and_observations,
+        clean:paleoclimate_records,
+        clean:proxy_data;
+    skos:prefLabel "Climate data" .
+
+clean:measurements_and_observations a skos:Concept;
+    rdfs:label "Measurements and observations";
+	rdfs:comment "Instrumental measurements or direct observations";
+    skos:broader clean:climate_data;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Measurements and observations" .
+
+clean:proxy_data a skos:Concept;
+    rdfs:label "Proxy data";
+	rdfs:comment "Tree rings, pollen records, corals, etc.";
+    skos:broader clean:climate_data;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Proxy data" .
+
+clean:paleoclimate_records a skos:Concept;
+    rdfs:label "Paleoclimate records";
+	rdfs:comment "Ice cores, sediment cores, climate evidence preserved in the geologic record";
+    skos:broader clean:climate_data;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Paleoclimate records" .
+
+clean:global_climate_modeling a skos:Concept;
+    rdfs:label "Global climate modeling";
+	rdfs:comment "Projecting future climates; reconstructing past climates; developing models";
+    skos:broader clean:measuring_and_modeling_climate;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:climate_projections,
+        clean:climate_reconstructions,
+        clean:long_scenario_development;
+    skos:prefLabel "Global climate modeling" .
+
+clean:climate_projections a skos:Concept;
+    rdfs:label "Climate projections";
+	rdfs:comment "projecting future climate";
+    skos:broader clean:global_climate_modeling;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Climate projections" .
+	
+clean:climate_reconstructions a skos:Concept;
+    rdfs:label "Climate reconstructions";
+	rdfs:comment "Using models to reconstruct past climates";
+    skos:broader clean:global_climate_modeling;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Climate reconstructions" .
+	
+clean:long_scenario_development a skos:Concept;
+    rdfs:label "Long scenario development";
+	rdfs:comment "Developing models of different climate conditions";
+    skos:broader clean:global_climate_modeling;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Long scenario development" .
+	
+clean:sea_level_rise a skos:Concept;
+    rdfs:label "Sea level rise";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Sea level rise" .
+	
+clean:extreme_weather a skos:Concept;
+    rdfs:label "Extreme weather";
+	rdfs:comment "Increases in extreme weather intensity and frequency";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:drought,
+        clean:flood,
+        clean:heat_waves,
+        clean:heavy_precipitation,
+        clean:hurricanes;
+    skos:prefLabel "Extreme weather" .
+
+clean:heavy_precipitation a skos:Concept;
+    rdfs:label "Heavy precipitation/Floods";
+    skos:broader clean:extreme_weather;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Heavy precipitation/Floods" .
+	
+clean:heat_waves a skos:Concept;
+    rdfs:label "Heat waves";
+    skos:broader clean:extreme_weather;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Heat waves" .
+	
+clean:drought a skos:Concept;
+    rdfs:label "Drought";
+    skos:broader clean:extreme_weather;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Drought" .
+	
+clean:hurricanes a skos:Concept;
+    rdfs:label "Hurricanes";
+    skos:broader clean:extreme_weather;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Hurricanes" .
+	
+clean:ecosystem_changes a skos:Concept;
+    rdfs:label "Ecosystem changes";
+	rdfs:comment "Impacts to ecosystems, such as boreal forests, wetlands, tundra";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Ecosystem changes" .
+	
+clean:plants_and_animals a skos:Concept;
+    rdfs:label "Plants and animals";
+	rdfs:comment "Impacts to plant and animal species";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Plants and animals" .
+	
+clean:melting_ice_and_permafrost a skos:Concept;
+    rdfs:label "Melting ice and permafrost";
+	rdfs:comment "Includes glacial retreat and thinning";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Melting ice and permafrost" .
+	
+clean:ocean_warming a skos:Concept;
+    rdfs:label "Ocean warming/Acidification";
+	rdfs:comment "Includes changes in ocean currents due to warming";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Ocean warming/Acidification" .
+	
+clean:availability_of_water_resources a skos:Concept;
+    rdfs:label "Availability of water resources";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Availability of water resources" .
+	
+clean:agricultural_changes a skos:Concept;
+    rdfs:label "Agricultural changes/Food security";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Agricultural changes/Food security" .
+	
+clean:national_security a skos:Concept;
+    rdfs:label "National security";
+	rdfs:comment "Includes climate refugees";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "National security" .
+	
+clean:public_health a skos:Concept;
+    rdfs:label "Public health";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Public health" .
+	
+clean:economic_impacts a skos:Concept;
+    rdfs:label "Economic impacts";
+    skos:broader clean:impacts_of_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Economic impacts" .
+	
+clean:mitigation_strategies a skos:Concept;
+    rdfs:label "Mitigation strategies";
+	rdfs:comment "Including policy related to mitigation strategies, such as emissions reduction or land use changes";
+    skos:broader clean:human_responses_to_climate_change;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:carbon_capture_and_storage,
+        clean:carbon_free_energy,
+        clean:emissions_reduction,
+        clean:land_use_changes;
+    skos:prefLabel "Mitigation strategies" .
+	
+clean:emissions_reduction a skos:Concept;
+    rdfs:label "Emissions reduction";
+	rdfs:comment "Includes efficiency, conservation, behavior shifts, carbon caps and related policy";
+    skos:broader clean:mitigation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Emissions reduction" .
+
+clean:carbon_free_energy a skos:Concept;
+    rdfs:label "Carbon free energy";
+	rdfs:comment "Switching to renewable, nuclear, or other types of energy that do not emit carbon dioxide";
+    skos:broader clean:mitigation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Carbon free energy" .
+
+clean:land_use_changes a skos:Concept;
+    rdfs:label "Land use changes";
+	rdfs:comment "Such as reforestation; crop management; managing albedo of urban areas";
+    skos:broader clean:anthropogenic_changes,
+        clean:mitigation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Land use changes" .
+
+clean:carbon_capture_and_storage a skos:Concept;
+    rdfs:label "Carbon capture and storage";
+	rdfs:comment "Also called carbon sequestration";
+    skos:broader clean:energy_use,
+        clean:mitigation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Carbon capture and storage" .
+
+clean:adaptation_strategies a skos:Concept;
+    rdfs:label "Adaptation strategies";
+	rdfs:comment "Includes policy related to adaptation strategies";
+    skos:broader clean:human_responses_to_climate_change;
+    skos:inScheme clean:scheme;
+    skos:narrower clean:new_infrastructure,
+        clean:retrofitting_infrastructure,
+        clean:social_innovation;
+    skos:prefLabel "Adaptation strategies" .
+
+clean:retrofitting_infrastructure a skos:Concept;
+    rdfs:label "Retrofitting infrastructure";
+	rdfs:comment "Adapting existing infrastructures to withstand climate change, such as strengthening coastal buildings";
+    skos:broader clean:adaptation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Retrofitting infrastructure" .
+
+clean:new_infrastructure a skos:Concept;
+    rdfs:label "New infrastructure";
+	rdfs:comment "Designing new infrastructure such as flood walls";
+    skos:broader clean:adaptation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "New infrastructure" .
+	
+clean:social_innovation a skos:Concept;
+    rdfs:label "Social innovation";
+	rdfs:comment "Novel approaches for adapting to a changing climate";
+    skos:broader clean:adaptation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Social innovation" .
+	
+clean:risk_management a skos:Concept;
+    rdfs:label "Risk management";
+    skos:broader clean:human_responses_to_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Risk management" .
+	
+clean:personal_responsibility a skos:Concept;
+    rdfs:label "Personal responsibility";
+	rdfs:comment "Social change; social equity; personal actions";
+    skos:broader clean:human_responses_to_climate_change;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Personal responsibility" .
+	
+clean:process_of_science a skos:Concept;
+    rdfs:label "Process of science";
+    skos:broader clean:nature_of_climate_science;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Process of science" .
+	
+clean:common_misconceptions a skos:Concept;
+    rdfs:label "Common misconceptions";
+    skos:broader clean:energy_use,
+        clean:nature_of_climate_science;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Common misconceptions" .
+	
+clean:fossil_fuels a skos:Concept;
+    rdfs:label "Fossil fuels";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Fossil fuels" .
+	
+clean:nuclear_energy a skos:Concept;
+    rdfs:label "Nuclear energy";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Nuclear energy" .
+	
+clean:solar_energy a skos:Concept;
+    rdfs:label "Solar energy";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Solar energy" .
+	
+clean:wind_energy a skos:Concept;
+    rdfs:label "Wind energy";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Wind energy" .
+	
+clean:other_alternatives a skos:Concept;
+    rdfs:label "Other alternatives";
+	rdfs:comment "Hydropower, geothermal, tidal, biofuels, etc.";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Other alternatives" .
+	
+clean:efficiency_and_conservation a skos:Concept;
+    rdfs:label "Efficiency and conservation";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Efficiency and conservation" .
+	
+clean:carbon_capture_and_storage a skos:Concept;
+    rdfs:label "Carbon capture and storage";
+	rdfs:comment "Also called carbon sequestration";
+    skos:broader clean:energy_use,
+        clean:mitigation_strategies;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Carbon capture and storage" .
+	
+clean:usage_trends a skos:Concept;
+    rdfs:label "Usage trends";
+	rdfs:comment "Trends in energy use";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Usage trends" .
+	
+clean:energy_policy a skos:Concept;
+    rdfs:label "Energy policy";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Energy policy" .	
+	
+clean:energy_infrastructure a skos:Concept;
+    rdfs:label "Energy infrastructure";
+	rdfs:comment "Includes the electricity grid and all types of energy distribution";
+    skos:broader clean:energy_use;
+    skos:inScheme clean:scheme;
+    skos:prefLabel "Energy infrastructure" .
+	
+clean:climate_system a skos:Concept;
+    rdfs:label "Climate system";
+	rdfs:comment "Includes natural processes within the climate system: orbital patterns, solar radiation, oceans, atmosphere, water cycle, the natural greenhouse effect, carbon cycle, regional climates and differences between climate and weather";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:atmospheric_circulation,
+        clean:atmospheric_composition,
+        clean:carbon_cycle,
+        clean:climate_compared_to_weather,
+        clean:climate_feedbacks,
+        clean:global_energy_balance,
+        clean:greenhouse_effect,
+        clean:ocean_and_climate,
+        clean:orbital_cycles,
+        clean:regional_climates,
+        clean:solar_radiation,
+        clean:water_cycle;
+    skos:prefLabel "Climate system" .
+	
+clean:causes_of_climate_change a skos:Concept;
+    rdfs:label "Causes of climate change";
+	rdfs:comment "Includes natural changes (cyclic variability, volcanic eruptions, solar output) and human-caused changes (due to GHG emissions and land use changes)";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:anthropogenic_changes,
+        clean:cyclical_and_natural_changes;
+    skos:prefLabel "Causes of climate change" .
+	
+clean:measuring_and_modeling_climate a skos:Concept;
+    rdfs:label "Measuring and modeling climate";
+	rdfs:comment "Instrumental measurements, proxy data, climate model projections";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:climate_data,
+        clean:global_climate_modeling;
+    skos:prefLabel "Measuring and modeling climate" .
+	
+clean:impacts_of_climate_change a skos:Concept;
+    rdfs:label "Impacts of climate change";
+	rdfs:comment "Includes sea level rise; extreme weather; changes to ecosystems, plants and animals; melting ice and permafrost; ocean warming; impacts to water resources, agriculture, public health and national security";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:acidification,
+        clean:agricultural_changes,
+        clean:availability_of_water_resources,
+        clean:economic_impacts,
+        clean:ecosystem_changes,
+        clean:extreme_weather,
+        clean:melting_ice_and_permafrost,
+        clean:national_security,
+        clean:ocean_warming,
+        clean:plants_and_animals,
+        clean:public_health,
+        clean:sea_level_rise;
+    skos:prefLabel "Impacts of climate change" .
+
+clean:human_responses_to_climate_change a skos:Concept;
+    rdfs:label "Human responses to climate change";
+	rdfs:comment "Includes policy, mitigation, adaptation, risk management, personal responsibility";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:adaptation_strategies,
+        clean:mitigation_strategies,
+        clean:personal_responsibility,
+        clean:risk_management;
+    skos:prefLabel "Human responses to climate change" .
+
+clean:nature_of_climate_science a skos:Concept;
+    rdfs:label "Nature of climate science";
+	rdfs:comment "Includes the process of science and common misconceptions about climate science";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:common_misconceptions,
+        clean:process_of_science;
+    skos:prefLabel "Nature of climate science" .
+	
+clean:energy_use a skos:Concept;
+    rdfs:label "Energy use";
+	rdfs:comment "Sources of energy, usage trends, conservation, policy";
+    skos:inScheme clean:scheme;
+    skos:narrower clean:carbon_capture_and_storage,
+        clean:common_misconceptions,
+        clean:efficiency_and_conservation,
+        clean:energy_infrastructure,
+		clean:energy_policy,
+        clean:fossil_fuels,
+        clean:nuclear_energy,
+        clean:other_alternatives,
+        clean:solar_energy,
+        clean:usage_trends,
+        clean:wind_energy;
+    skos:prefLabel "Energy use" .
+
+clean:scheme a skos:ConceptScheme;
+    dct:title "CLEAN Climate & Energy Vocabulary";
+    skos:hasTopConcept clean:causes_of_climate_change,
+        clean:climate_system,
+        clean:energy_use,
+        clean:human_responses_to_climate_change,
+        clean:impacts_of_climate_change,
+        clean:measuring_and_modeling_climate,
+		clean:nature_of_climate_science.

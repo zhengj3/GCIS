@@ -1,0 +1,442 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://example.com/" xmlns="">
+<match>
+<entity1>http://cleanet.org/solar_radiation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/a0f3474e-9a54-4a82-97c4-43864b48df4c</entity2>
+<Note>SOLAR RADIATION@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/heavy_precipitation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/49ee4fcc-a0ad-4638-aec9-90b4946d8922</entity2>
+<Note>HEAVY METALS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/global_energy_balance</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/f082ad51-4ce4-4ffe-be50-6753c4f997ae</entity2>
+<Note>GLOBAL POSITIONING SYSTEMS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/measurements_and_observations</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/energy_infrastructure</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/36bab763-b5d7-450a-8328-1c1f935184f4</entity2>
+<Note>ENERGY DEPOSITION@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/human_responses_to_climate_change</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91</entity2>
+<Note>SOILS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/nuclear_energy</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/climate_data</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/1bf8f27a-d6ff-4cb6-acb7-7e5cce11e029</entity2>
+<Note>BIRDS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/ocean_warming</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/f1ee3e81-09b9-48d4-81d9-5faeb90430cc</entity2>
+<Note>OCEAN CONTAMINANTS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/heat_capacity_of_water</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ee2cb9eb-f960-4e23-9e7c-be64d44a64e7</entity2>
+<Note>HEAT FLUX@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/national_security</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/hurricanes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/7f038c19-7b28-4588-b128-9d5518035919</entity2>
+<Note>HURRICANES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/other_alternatives</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/orbital_cycles</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/long_scenario_development</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/adaptation_strategies</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/economic_impacts</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/personal_responsibility</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/mitigation_strategies</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/retrofitting_infrastructure</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/carbon_free_energy</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/88a1b416-1589-45a4-9923-452975ec35c7</entity2>
+<Note>CARBON MONOXIDE@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/public_health</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/carbon_cycle</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/88a1b416-1589-45a4-9923-452975ec35c7</entity2>
+<Note>CARBON MONOXIDE@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/greenhouse_gases</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/coreolis_effect</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/new_infrastructure</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/greenhouse_gas_emissions</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/measuring_and_modeling_climate</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/carbon_capture_and_storage</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/social_innovation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/9a1dd3c3-a126-437e-ad04-9dc0a382d567</entity2>
+<Note>SOCIAL AND ECONOMIC MODELS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/ocean_and_climate</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/a031952d-9f00-4ba5-9966-5f87ab9dfdd4</entity2>
+<Note>OCEAN CIRCULATION@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/atmospheric_circulation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/12b1cc7c-cb81-4851-9163-19c04a8ffd1c</entity2>
+<Note>ATMOSPHERIC CONDUCTIVITY@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/climate_projections</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/392ff7f6-dcf6-4543-930e-3e6e441ad881</entity2>
+<Note>CLIMATE ADVISORIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/greenhouse_effect</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/climate_feedbacks</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/392ff7f6-dcf6-4543-930e-3e6e441ad881</entity2>
+<Note>CLIMATE ADVISORIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/water_cycle</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/fb4834d9-7bfe-4283-86f7-931532baa79c</entity2>
+<Note>WATER BEARS (TARDIGRADES)@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/climate_system</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91</entity2>
+<Note>SOILS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/climate_reconstructions</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/392ff7f6-dcf6-4543-930e-3e6e441ad881</entity2>
+<Note>CLIMATE ADVISORIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/nature_of_climate_science</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/efficiency_and_conservation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/energy_use</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91</entity2>
+<Note>SOILS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/heat_waves</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/10144249-d836-4a7d-adc8-177702595c87</entity2>
+<Note>HEAT ADVISORY@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/impacts_of_climate_change</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91</entity2>
+<Note>SOILS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/seasons</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/solar_output_variability</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3b230650-68ff-4e7a-9273-6e0b1083bdfa</entity2>
+<Note>SOLAR FLUX@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/el_nino_la_nina_e_n_s_o</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/scheme</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/bc60fbb8-f9e9-492e-9acf-0f47345cedf2</entity2>
+<Note>MUSSELS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/energy_policy</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/36bab763-b5d7-450a-8328-1c1f935184f4</entity2>
+<Note>ENERGY DEPOSITION@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/agricultural_changes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/f2f37978-d942-43d2-9c51-79e9f5bdfe24</entity2>
+<Note>AGRICULTURAL EQUIPMENT@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/thermohaline_circulation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/aa1bc71c-daeb-401e-9e29-ebde975482cf</entity2>
+<Note>THERMOHALINE CIRCULATION@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/land_use_changes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/fe2f8240-4d8e-4b1f-b869-29fee59692f7</entity2>
+<Note>LAND USE CLASSES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/sea_level_rise</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/0afaaa5e-f88c-4c1f-95c1-1faa0148885a</entity2>
+<Note>SEA LEVEL RISE@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/volcanic_eruptions</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/06c1281f-e306-4511-bdab-ed6c0694f0f9</entity2>
+<Note>VOLCANIC ERUPTIONS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/wind_energy</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/91d73256-925d-4d04-9b55-aaf088080cac</entity2>
+<Note>WIND STRESS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/common_misconceptions</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/drought</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3678d18c-9dca-4743-abc0-1442b4d438d2</entity2>
+<Note>DROUGHT@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/usage_trends</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/anthropogenic_changes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/regional_climates</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/causes_of_climate_change</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/c5b13fa4-0069-40ce-85cb-bfbab34c2058</entity2>
+<Note>COUPLED CLIMATE MODELS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/plants_and_animals</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/atmospheric_composition</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/hadley_cells</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/aerosols</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/seasonal_variability</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/risk_management</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/extreme_weather</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91</entity2>
+<Note>SOILS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/biogeochemical_processes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/9015e65f-bbae-4855-a4b6-1bfa601752bd</entity2>
+<Note>BIOGEOCHEMICAL CYCLES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/cyclical_and_natural_changes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91</entity2>
+<Note>SOILS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/climate_compared_to_weather</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/392ff7f6-dcf6-4543-930e-3e6e441ad881</entity2>
+<Note>CLIMATE ADVISORIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/melting_ice_and_permafrost</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/deforestation</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/dcb100c9-5b43-422a-a429-25cae9dbb170</entity2>
+<Note>REFORESTATION@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/global_climate_modeling</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3055774e-8931-4b5d-a131-5ef5911839e4</entity2>
+<Note>NEUTRINOS@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/paleoclimate_records</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/other_oscillations</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/sources_and_sinks</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/e8f25820-dd06-4d8d-9548-dcc30a871982</entity2>
+<Note>WADERS/GULLS/AUKS AND ALLIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/proxy_data</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/ecosystem_changes</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/emissions_reduction</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/thermal_expansion</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/7d3d6c15-b328-43a4-92eb-7d3c430647c4</entity2>
+<Note>THERMAL PROPERTIES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/availability_of_water_resources</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ff141ffe-05ea-4901-a243-e6186826b05c</entity2>
+<Note>VEGETATION WATER CONTENT@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/albedo</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/solar_energy</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/3b230650-68ff-4e7a-9273-6e0b1083bdfa</entity2>
+<Note>SOLAR FLUX@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/fossil_fuels</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/process_of_science</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/evolution_of_atmosphere</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/long_term_cycles</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+<match>
+<entity1>http://cleanet.org/long-term_variability</entity1>
+<entity2>http://gcmdservices.gsfc.nasa.gov/kms/concept/ab7eb13f-5fcb-4afa-8819-c37d36feeec1</entity2>
+<Note>COCCOLITHOPHORES@en </Note>
+</match>
+</rdf:RDF>
